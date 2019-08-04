@@ -1,0 +1,48 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LYFrameDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LYFrameDemo
+  pod 'Masonry'
+        pod 'MBProgressHUD'
+        pod 'IQKeyboardManager'
+        pod 'WCDB'
+        pod 'YYWebImage', '~> 1.0.5'
+        pod 'YXAlertController'
+        pod 'ReactiveObjC'
+        pod 'DZNEmptyDataSet', '~> 1.8.1'
+        pod 'JSONModel'
+        pod 'SDCycleScrollView'
+        pod 'MZFormSheetPresentationController', '~> 2.4.3'
+        pod 'FDFullscreenPopGesture'
+        # pod 'Qiniu'
+        # pod 'JPush'
+        pod 'YYCategories'
+        pod 'YYImage/WebP'
+        pod 'SWTableViewCell'
+        pod 'RealReachability'
+        # pod 'AMapLocation'
+        # pod 'AMap2DMap'
+        # pod 'AMPopTip', '~> 3.5.0'
+        pod 'YYText'
+        # pod 'SocketRocket'
+        # pod 'Bugly'
+        # pod 'SuperPlayer'
+        pod 'HCSStarRatingView'
+        # pod 'QNRTCKit', :podspec => 'https://raw.githubusercontent.com/pili-engineering/QNRTC-iOS/master/QNRTCKit-universal.podspec'
+        pod 'coobjc'
+        pod 'FCUUID'
+        pod 'FLAnimatedImage'
+        pod 'JPNavigationController', '~> 2.1.3'
+        pod 'RegexKitLite'
+        # pod 'Charts'
+        pod 'AvoidCrash'
+        pod 'MMDrawerController'
+        # pod 'flutter-lib', :path => '../flutter-lib'
+        pod 'XHLaunchAd'
+        pod 'SDWebImage'
+        pod 'MJRefresh'
+end
