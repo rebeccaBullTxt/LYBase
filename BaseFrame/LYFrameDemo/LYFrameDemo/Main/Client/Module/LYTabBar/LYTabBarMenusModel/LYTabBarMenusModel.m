@@ -8,6 +8,10 @@
 
 #import "LYTabBarMenusModel.h"
 
+@implementation LYTabBarMenusModel_menu
+
+@end
+
 @implementation LYTabBarMenusModel
 
 @end

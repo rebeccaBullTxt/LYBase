@@ -6,6 +6,8 @@
 //  Copyright © 2019 刘渊. All rights reserved.
 //
 
+//用户Token
+#define KUSER_TOKEN [LYAppManager sharedManager].userToken
 //error 明细
 #define kMessage(obj) obj.userInfo[errorInfoKey]
 //error Code码

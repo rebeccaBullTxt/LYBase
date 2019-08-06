@@ -10,6 +10,7 @@
 #import "LYAppearance.h"
 #import "LYFrameWorkHelper.h"
 #import "LYLoginViewController.h"
+#import "LYTabBarController.h"
 
 @implementation LYAppManager
 
@@ -72,10 +73,42 @@
 #pragma mark - 启动登录页
 - (void)openLoginVc{
     //本地获取数据
-    
+    [self openMainVc];
     //未获取到数据,跳转至登录页
-    LYLoginViewController *loginVc = [LYLoginViewController viewControllerWithStoryBoardType:STORYBOARD_TYPE_MAIN];
-    kWindow.rootViewController = loginVc;
+//    LYLoginViewController *loginVc = [LYLoginViewController viewControllerWithStoryBoardType:STORYBOARD_TYPE_MAIN];
+//    kWindow.rootViewController = loginVc;
+}
+
+#pragma mark - BaseUrl
+- (NSString *)baseUrl{
+    //如果缓存中存在baseUrl 优先使用缓存 否则使用正式接口
+//    if ([Utility getSandbox:kBaseUrlKey]) {
+//        return [Utility getSandbox:kBaseUrlKey];
+//    }else {
+//        [Utility saveSandbox:BaseUrlReleae key:kBaseUrlKey];
+//        return BaseUrlReleae;
+//    }
+    return @"";
+}
+
+- (void)loginOutAction{
+    
+}
+
+#pragma mark - 主页
+- (void)openMainVc {
+    //设置HTTabBarController
+    [self.customTabbar setViewControllers];
+    kWindow.rootViewController = self.customTabbar;
+    [kWindow makeKeyAndVisible];
+}
+
+#pragma mark - lazy
+- (LYTabBarController *)customTabbar {
+    if (!_customTabbar) {
+        _customTabbar = [[LYTabBarController alloc] init];
+    }
+    return _customTabbar;
 }
 
 @end

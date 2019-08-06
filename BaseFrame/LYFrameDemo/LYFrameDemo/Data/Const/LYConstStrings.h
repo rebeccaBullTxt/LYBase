@@ -11,5 +11,7 @@
 UIKIT_EXTERN NSString *const kAdvertising;
 //首页广告图跳转URL
 UIKIT_EXTERN NSString *const kAdvertisingUrl;
+//发送验证码
+UIKIT_EXTERN NSString *const SendVerificationCodeTitle;
 @end
 

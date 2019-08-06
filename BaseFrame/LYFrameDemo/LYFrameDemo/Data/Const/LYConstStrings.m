@@ -13,4 +13,6 @@
 NSString *const kAdvertising = @"kAdvertising";
 //首页广告图跳转URL
 NSString *const kAdvertisingUrl = @"kAdvertisingUrl";
+//发送验证码
+NSString *const SendVerificationCodeTitle = @"发送验证码";
 @end

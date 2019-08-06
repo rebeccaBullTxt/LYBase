@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LYTabBarController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,12 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 //userModel
 
-//userToken
-
 //userId
 
+//userToken
+@property (nonatomic, copy) NSString *userToken;
 
-
+@property (nonatomic, strong) LYTabBarController *customTabbar;
 
 
 
@@ -33,6 +34,20 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)openLoginVc;
 
+/**
+ 打开主页
+ */
+- (void)openMainVc;
+
+/**
+ 获取baseUrl
+ */
+- (NSString *)baseUrl;
+
+/**
+ 退出登录
+ */
+- (void)loginOutAction;
 
 @end
 

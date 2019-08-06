@@ -1,5 +1,5 @@
 //
-//  LYUtility.h
+//  Utility.h
 //  LYFrameDemo
 //
 //  Created by 刘渊 on 2019/8/4.
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LYUtility : NSObject
+@interface Utility : NSObject
 
 /**
  保存沙盒
@@ -43,6 +43,15 @@ NS_ASSUME_NONNULL_BEGIN
  @return NSString
  */
 + (NSString *)generateUrl:(NSString *)string;
+
+
+/**
+ 创建文件路径
+ 
+ @param fileName 文件名
+ @return URL
+ */
++ (NSURL *)filePathWithName:(NSString *)fileName;
 
 @end
 

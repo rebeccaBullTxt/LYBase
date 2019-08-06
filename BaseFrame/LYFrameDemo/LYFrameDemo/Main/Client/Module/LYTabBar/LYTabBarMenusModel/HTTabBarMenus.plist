@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>menu_storyboard</key>
-		<true/>
+		<false/>
 		<key>menu_storyboard_name</key>
 		<string>STORYBOARD_TYPE_MAIN</string>
 		<key>menu_class</key>

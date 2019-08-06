@@ -1,14 +1,14 @@
 //
-//  LYUtility.m
+//  Utility.m
 //  LYFrameDemo
 //
 //  Created by 刘渊 on 2019/8/4.
 //  Copyright © 2019 刘渊. All rights reserved.
 //
 
-#import "LYUtility.h"
+#import "Utility.h"
 
-@implementation LYUtility
+@implementation Utility
 
 #pragma mark - user default functions
 + (void)saveSandbox:(id)value key:(NSString *)key{
@@ -39,4 +39,12 @@
     return encodedString;
 }
 
++ (NSURL *)filePathWithName:(NSString *)fileName{
+    NSURL *fileFolder = [Utility createFolderWithName:FILE_PATH inDirectory:[Utility dataPath]];
+    if (!fileFolder) {
+        return nil;
+    }
+    NSString *filePath = [[fileFolder absoluteString] stringByAppendingPathComponent:fileName];
+    return [NSURL fileURLWithPath:filePath];
+}
 @end

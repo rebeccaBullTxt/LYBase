@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - AvoidCrash (2.5.2)
   - cocore (1.2.0)
   - coobjc (1.2.0):
@@ -68,6 +83,7 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.0)
   - AvoidCrash
   - coobjc
   - DZNEmptyDataSet (~> 1.8.1)
@@ -99,6 +115,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
     - AvoidCrash
     - cocore
     - coobjc
@@ -135,6 +152,7 @@ SPEC REPOS:
     - YYWebImage
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
   cocore: cc9d76229458f286a632d9cecb63bd699bd3529d
   coobjc: 090a460e32e90d0e820e64c31cf7b79dece51a7c
@@ -170,6 +188,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 2d036d118697368c60fd2fd127a92eb18f37cd56
+PODFILE CHECKSUM: 4119d30648790386003b471a592584777b67cbb7
 
 COCOAPODS: 1.7.4

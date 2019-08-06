@@ -33,8 +33,8 @@
 
 #pragma mark - 开屏初始化
 - (void)setupXHLaunchAd{
-    NSString *advertising = [LYUtility getSandbox:kAdvertising];
-    if (!advertising && [advertising empty]) {
+    NSString *advertising = [Utility getSandbox:kAdvertising];
+    if (!advertising || [advertising empty]) {
         advertising = @"https://pic2.hanmaker.com/7f2abe4495a646c57686885f40fbae84f34f.jpg?imageslim";
     }
     if (advertising && ![advertising empty]) {
@@ -42,7 +42,7 @@
         XHLaunchImageAdConfiguration *imageAdconfiguration = [XHLaunchImageAdConfiguration new];
         imageAdconfiguration.duration = 3;
         imageAdconfiguration.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight * 0.85);
-        imageAdconfiguration.imageNameOrURLString = [LYUtility generateUrl:advertising];
+        imageAdconfiguration.imageNameOrURLString = [Utility generateUrl:advertising];
         imageAdconfiguration.contentMode = UIViewContentModeScaleToFill;
         imageAdconfiguration.imageOption = XHLaunchAdImageCacheInBackground;
         imageAdconfiguration.showFinishAnimate = ShowFinishAnimateNone;
@@ -58,13 +58,13 @@
 
 #pragma mark - 获取网络数据
 - (void)getAdvertisingData{
-    //[Utility saveSandbox:launchUrl key:kAdvertising];
-    //[Utility saveSandbox:model.data.url key:kAdvertisingUrl];
+//    [Utility saveSandbox:@"https://pic2.hanmaker.com/7f2abe4495a646c57686885f40fbae84f34f.jpg?imageslim" key:kAdvertising];
+//    [Utility saveSandbox:model.data.url key:kAdvertisingUrl];
 }
 
 #pragma mark - <XHLaunchAdDelegate>
 - (void)xhLaunchAd:(XHLaunchAd *)launchAd clickAndOpenModel:(id)openModel clickPoint:(CGPoint)clickPoint {
-//    NSString *url = [LYUtility getSandbox:kAdvertisingUrl];
+//    NSString *url = [Utility getSandbox:kAdvertisingUrl];
 //    if ([url length] && [LYAppManager sharedManager].userModel) {
 //        [XHLaunchAd removeAndAnimated:YES];
 //        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

@@ -45,4 +45,5 @@ target 'LYFrameDemo' do
         pod 'XHLaunchAd'
         pod 'SDWebImage'
         pod 'MJRefresh'
+        pod 'AFNetworking', '~> 3.0'
 end
