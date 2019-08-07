@@ -34,6 +34,12 @@
 		54431B5522F3DDF8000019DE /* LYAdvertisingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54431B5422F3DDF8000019DE /* LYAdvertisingManager.m */; };
 		54431B5E22F3E405000019DE /* LYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54431B5D22F3E405000019DE /* LYLoginViewController.m */; };
 		54431B6422F3E558000019DE /* UIViewController+LYPushStoryBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 54431B6322F3E558000019DE /* UIViewController+LYPushStoryBoard.m */; };
+		54843F3C22FA6A9F00447666 /* LYWCDBManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 54843F3B22FA6A9F00447666 /* LYWCDBManager.mm */; };
+		54843F4622FA75C300447666 /* HTActionSheetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54843F3E22FA75C300447666 /* HTActionSheetTableViewCell.m */; };
+		54843F4722FA75C300447666 /* HTActionSheetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54843F4022FA75C300447666 /* HTActionSheetModel.m */; };
+		54843F4822FA75C300447666 /* HTActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54843F4122FA75C300447666 /* HTActionSheetViewController.m */; };
+		54843F4922FA75C300447666 /* HTActionSheetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54843F4322FA75C300447666 /* HTActionSheetManager.m */; };
+		54843F5122FB0F2600447666 /* LYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54843F5022FB0F2600447666 /* LYButton.m */; };
 		54A8548622F4B1F500CEAA3E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54E19DE622F2716D003A44ED /* Info.plist */; };
 		54A8548922F4B42A00CEAA3E /* UIImage+LYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8548822F4B42A00CEAA3E /* UIImage+LYHelper.m */; };
 		54DC506222F7A9D70056E7EF /* LYRealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC506022F7A9D70056E7EF /* LYRealReachability.m */; };
@@ -123,6 +129,18 @@
 		54431B5D22F3E405000019DE /* LYLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLoginViewController.m; sourceTree = "<group>"; };
 		54431B6222F3E558000019DE /* UIViewController+LYPushStoryBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LYPushStoryBoard.h"; sourceTree = "<group>"; };
 		54431B6322F3E558000019DE /* UIViewController+LYPushStoryBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LYPushStoryBoard.m"; sourceTree = "<group>"; };
+		54843F3A22FA6A9F00447666 /* LYWCDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWCDBManager.h; sourceTree = "<group>"; };
+		54843F3B22FA6A9F00447666 /* LYWCDBManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LYWCDBManager.mm; sourceTree = "<group>"; };
+		54843F3E22FA75C300447666 /* HTActionSheetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTActionSheetTableViewCell.m; sourceTree = "<group>"; };
+		54843F3F22FA75C300447666 /* HTActionSheetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTActionSheetManager.h; sourceTree = "<group>"; };
+		54843F4022FA75C300447666 /* HTActionSheetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTActionSheetModel.m; sourceTree = "<group>"; };
+		54843F4122FA75C300447666 /* HTActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTActionSheetViewController.m; sourceTree = "<group>"; };
+		54843F4222FA75C300447666 /* HTActionSheetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTActionSheetTableViewCell.h; sourceTree = "<group>"; };
+		54843F4322FA75C300447666 /* HTActionSheetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTActionSheetManager.m; sourceTree = "<group>"; };
+		54843F4422FA75C300447666 /* HTActionSheetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTActionSheetModel.h; sourceTree = "<group>"; };
+		54843F4522FA75C300447666 /* HTActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTActionSheetViewController.h; sourceTree = "<group>"; };
+		54843F4F22FB0F2600447666 /* LYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYButton.h; sourceTree = "<group>"; };
+		54843F5022FB0F2600447666 /* LYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYButton.m; sourceTree = "<group>"; };
 		54A8548722F4B42A00CEAA3E /* UIImage+LYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LYHelper.h"; sourceTree = "<group>"; };
 		54A8548822F4B42A00CEAA3E /* UIImage+LYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LYHelper.m"; sourceTree = "<group>"; };
 		54DC506022F7A9D70056E7EF /* LYRealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRealReachability.m; sourceTree = "<group>"; };
@@ -454,6 +472,7 @@
 		5420756722F72F6300FD1B5C /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				54843F3D22FA75C300447666 /* ActionSheet */,
 				54DC505F22F7A9D70056E7EF /* RealReachability */,
 				5420756822F72F9F00FD1B5C /* NavigationTitleView */,
 			);
@@ -519,6 +538,7 @@
 		54431B5622F3E358000019DE /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				54843F4E22FB0F2600447666 /* LYCustomButton */,
 				5420757722F7349900FD1B5C /* LYSectionView */,
 				5420755222F724B900FD1B5C /* LYTabBar */,
 				54431B5722F3E384000019DE /* LYLogin */,
@@ -571,6 +591,30 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		54843F3D22FA75C300447666 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				54843F4522FA75C300447666 /* HTActionSheetViewController.h */,
+				54843F3E22FA75C300447666 /* HTActionSheetTableViewCell.m */,
+				54843F3F22FA75C300447666 /* HTActionSheetManager.h */,
+				54843F4022FA75C300447666 /* HTActionSheetModel.m */,
+				54843F4122FA75C300447666 /* HTActionSheetViewController.m */,
+				54843F4222FA75C300447666 /* HTActionSheetTableViewCell.h */,
+				54843F4322FA75C300447666 /* HTActionSheetManager.m */,
+				54843F4422FA75C300447666 /* HTActionSheetModel.h */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		54843F4E22FB0F2600447666 /* LYCustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				54843F4F22FB0F2600447666 /* LYButton.h */,
+				54843F5022FB0F2600447666 /* LYButton.m */,
+			);
+			path = LYCustomButton;
+			sourceTree = "<group>";
+		};
 		54DC505F22F7A9D70056E7EF /* RealReachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,6 +627,8 @@
 		54DDD84722F29E110053F434 /* Cache */ = {
 			isa = PBXGroup;
 			children = (
+				54843F3A22FA6A9F00447666 /* LYWCDBManager.h */,
+				54843F3B22FA6A9F00447666 /* LYWCDBManager.mm */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
@@ -939,6 +985,7 @@
 				54DDD84E22F2A0670053F434 /* LYConstStrings.m in Sources */,
 				54DE55F822F6EDE700A985D3 /* UIDevice+Category.m in Sources */,
 				54DE55FB22F6EDE700A985D3 /* NSString+Category.m in Sources */,
+				54843F4822FA75C300447666 /* HTActionSheetViewController.m in Sources */,
 				54431B5522F3DDF8000019DE /* LYAdvertisingManager.m in Sources */,
 				54E19DDD22F26FCA003A44ED /* main.m in Sources */,
 				5420758C22F74AD800FD1B5C /* AFNetWorkUtils.m in Sources */,
@@ -961,6 +1008,7 @@
 				54431B5E22F3E405000019DE /* LYLoginViewController.m in Sources */,
 				54A8548922F4B42A00CEAA3E /* UIImage+LYHelper.m in Sources */,
 				54DE55F722F6EDE700A985D3 /* UIView+Category.m in Sources */,
+				54843F4722FA75C300447666 /* HTActionSheetModel.m in Sources */,
 				5408ADD222F9CA860032D524 /* LYHanChuanCircleViewController.m in Sources */,
 				54DE55FE22F6EDE700A985D3 /* NSObject+Category.m in Sources */,
 				5420755522F724DC00FD1B5C /* LYTabBarController.m in Sources */,
@@ -970,6 +1018,7 @@
 				54E2199922F2F3960060CE55 /* LYAppearance.m in Sources */,
 				54DE55F922F6EDE700A985D3 /* UIBarButtonItem+Category.m in Sources */,
 				5420755822F7257D00FD1B5C /* LYTabBarMenusModel.m in Sources */,
+				54843F4622FA75C300447666 /* HTActionSheetTableViewCell.m in Sources */,
 				54DE55F622F6EDE700A985D3 /* UIButton+Category.m in Sources */,
 				5420756C22F72F9F00FD1B5C /* LYNavigationTitleView.m in Sources */,
 				5420757622F7341100FD1B5C /* LYBaseTableViewController.m in Sources */,
@@ -978,7 +1027,10 @@
 				54DE55FD22F6EDE700A985D3 /* NSDictionary+Category.m in Sources */,
 				54E2199D22F2F6970060CE55 /* UIColor+LYHelper.m in Sources */,
 				5420755F22F726FF00FD1B5C /* LYBaseNavigationController.m in Sources */,
+				54843F3C22FA6A9F00447666 /* LYWCDBManager.mm in Sources */,
 				54DE55FF22F6EDE700A985D3 /* UIColor+Category.m in Sources */,
+				54843F4922FA75C300447666 /* HTActionSheetManager.m in Sources */,
+				54843F5122FB0F2600447666 /* LYButton.m in Sources */,
 				5420758022F7407400FD1B5C /* LYLoginViewModel.m in Sources */,
 				5420755122F7244100FD1B5C /* LYBaseModel.m in Sources */,
 			);
